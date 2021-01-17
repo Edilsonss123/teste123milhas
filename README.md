@@ -22,29 +22,29 @@
 Clone este repositório
 
 ```
-$ git clone https://github.com/Edilsonss123/teste123milhas.git teste123milhas
+ git clone https://github.com/Edilsonss123/teste123milhas.git teste123milhas
 ```
 Acesse a pasta do projeto no terminal/cmd
 
 ```
-$ cd teste123milhas
+ cd teste123milhas
 ```
 
 Instalando dependência 
 
 ```
-$ composer install
+ composer install
 ```
 
 Gerando chave projeto
 
 ```
-$ php artisan key:generate 
+ php artisan key:generate 
 ```
 
 Iniciando servidor projeto
 
 ```
-$ php artisan serve --port=2021
+ php artisan serve --port=2021
 ```
 O servidor inciará na porta:2121 - acesse ```<http://localhost:2021/>```
