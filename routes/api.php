@@ -16,7 +16,7 @@ use App\Http\Controllers\FlightController;
 
 Route::prefix('flight')->group(function () {
     Route::prefix('search')->group(function () {
-        Route::get('/', [FlightController::class, 'searchFlight']);
-        Route::get('/group', [FlightController::class, 'searchFlightsGrouped']);
+        Route::get('/', [FlightController::class, 'searchFlight'])->name('flight.search');
+        Route::get('/group', [FlightController::class, 'searchFlightsGrouped'])->name('flight.search.group');
     });
 });

@@ -18,6 +18,10 @@
             body {
                 font-family: 'Nunito';
             }
+            li a {
+                color:#0700ce;
+                font-weight: bold;
+            }
         </style>
     </head>
     <body class="antialiased">
@@ -29,6 +33,18 @@
                     <h1>
                         Teste 123Milhas - Edilson
                     </h1> 
+                    <ul>
+                        
+                        <li>
+                            Host: <a href="#">teste123milhas.herokuapp.com</a>
+                        </li>
+                        <li>
+                            GET: <a href="{{ route('flight.search') }}" target="_blank">/api/flight/search</a> -> Lista todos os voos disponíveis
+                        </li>
+                        <li>
+                            GET: <a href="{{ route('flight.search.group') }}" target="_blank">/api/flight/search/group</a> -> Lista os voos agrupados por tarifa e nos valores dos voos de ida/volta
+                        </li>
+                    </ul>
                 </div>
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
