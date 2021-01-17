@@ -22,9 +22,14 @@
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
-            <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-   
 
+            <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+
+                <div class="">
+                    <h1>
+                        Teste 123Milhas - Edilson
+                    </h1> 
+                </div>
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
                         <div class="p-6">
@@ -63,12 +68,15 @@
                                             </svg>
                                         </div>
                                     </div>
+                                    <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
+                                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
+                                    </div>
                                 </div>
                             </a>
                         </div>
 
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700">
-                            <a href="https://laracasts.com" class="underline text-gray-900 dark:text-white" target="_blank">
+                            <a href="https://github.com/Edilsonss123/teste123milhas" class="underline text-gray-900 dark:text-white" target="_blank">
                                 <div class="flex items-center">
                                     <div class="ml-4 text-lg leading-7 font-semibold">
                                         Projeto no GitHub
@@ -78,13 +86,7 @@
                                 <div class="ml-12">
                                     <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                         <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                                            <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto text-gray-700 sm:h-20">
-                                                <g clip-path="url(#clip0)" fill="#24292e">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="204" height="240" viewBox="0 0 24 24">
-                                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                                                    </svg>
-                                                </g>
-                                            </svg>
+                                            <img src="https://miro.medium.com/max/676/0*6H_uK_FrEbTra082.png" alt="" width="240">
                                         </div>
                                     </div>
                                 </div>
@@ -92,7 +94,7 @@
                         </div>
 
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
-                            <a href="https://laravel-news.com/" class="underline text-gray-900 dark:text-white" target="_blank">
+                            <a href="https://documenter.getpostman.com/view/5807678/TVzVivkw" class="underline text-gray-900 dark:text-white" target="_blank">
                                 <div class="flex items-center">
                                     <div class="ml-4 text-lg leading-7 font-semibold">
                                         Documentação e rotas da API  - Postaman
@@ -101,37 +103,13 @@
                                 <div class="ml-12">
                                     <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                         <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="100" height="150" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 264">
-                                                <g fill="none">
-                                                    <path fill="#F15A24" d="M45.985 256.455L0 258.05l23.573-23.967l22.414 22.374z"/>
-                                                    <path d="M254.58 137.58c-8.543 66.613-69.475 113.676-136.077 105.123C51.889 234.158 4.826 173.228 13.37 106.62C21.919 40.008 82.838-7.06 149.457 1.494c66.61 8.542 113.684 69.478 105.124 136.084" fill="#F15A24"/>
-                                                    <path d="M164.982 87.532c7.99 8.494.104 28.577.104 28.577s-7.794 28.393-52.421 65.213l-8.33-8.177l56.65-57.899l1.095-1.478c1.507-2.456 2.755-26.401 2.902-26.236" fill="#999"/>
-                                                    <path d="M164.982 87.532c7.99 8.494.104 28.577.104 28.577s-7.794 28.393-52.421 65.213l-8.33-8.177l56.65-57.899l1.095-1.478c1.507-2.456 2.755-26.401 2.902-26.236h0z" stroke="#FFF" stroke-width="1.918" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M92.1 161.108l72.763-73.785c3.693 4.385 4.479 9.11 3.407 15.842c-.722 4.663-8.775 13.981-8.775 13.981l-55.16 56" fill="#666"/>
-                                                    <path d="M92.1 161.108l72.763-73.785c3.693 4.385 4.479 9.11 3.407 15.842c-.722 4.663-8.775 13.981-8.775 13.981l-55.16 56" stroke="#FFF" stroke-width="1.201" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M164.982 87.583L92.099 161.11l.147-.143l-.027.011l-18.083-17.818c37.708-46.905 62.089-55.65 62.089-55.65s15.872-6.196 27.195-1.388c.87.466 1.248.734 1.56 1.463" fill="#FF931E"/>
-                                                    <path d="M164.982 87.583L92.099 161.11l.147-.143l-.027.011l-18.083-17.818c37.708-46.905 62.089-55.65 62.089-55.65s15.872-6.196 27.195-1.388c.87.466 1.248.734 1.56 1.463l.002-.002z" stroke="#FFF" stroke-width="1.918" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M112.665 181.32c-17.388 14.32-39.641 36.816-69.889 52.506l6.728 28.762l-28.516-28.087l71.11-73.393" fill="#999"/>
-                                                    <path d="M112.665 181.32c-17.388 14.32-39.641 36.816-69.889 52.506l6.728 28.762l-28.516-28.087l71.11-73.393" stroke="#FFF" stroke-width="1.918" stroke-linecap="round" stroke-linejoin="round"/><path fill="#F15A24" d="M74.623 143.4l17.665 17.596l-40.81 8.84l22.754-26.753l.393.318z"/>
-                                                    <path stroke="#FFF" stroke-width="1.918" stroke-linecap="round" stroke-linejoin="round" d="M74.623 143.4l17.665 17.596l-40.81 8.84l22.754-26.753l.393.318z"/><path d="M158.024 66.246c-1.733 15.641 9.528 29.721 25.168 31.465c15.628 1.737 29.721-9.533 31.465-25.168c1.738-15.635-9.54-29.73-25.174-31.468c-15.642-1.728-29.724 9.527-31.459 25.171" fill="#999"/>
-                                                    <path d="M158.024 66.246c-1.733 15.641 9.528 29.721 25.168 31.465c15.628 1.737 29.721-9.533 31.465-25.168c1.738-15.635-9.54-29.73-25.174-31.468c-15.642-1.728-29.724 9.527-31.459 25.171h0z" stroke="#FFF" stroke-width="1.918" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M210.565 85.138c5.256-7.679 4.984-19.167 3.929-22.57c-1.295-4.168-4.191-10.945-9.243-14.468l-26.714 24.606s20.53 22.059 21.065 22.132c.222.026 6.17-2.698 10.963-9.7" fill="#666"/><path d="M210.565 85.138c5.256-7.679 4.984-19.167 3.929-22.57c-1.295-4.168-4.191-10.945-9.243-14.468l-26.714 24.606s20.53 22.059 21.065 22.132c.222.026 6.17-2.698 10.963-9.7h0zm-5.39-19.275s2.569 6.307-.69 11.214l.69-11.214z" stroke="#FFF" stroke-width="1.918" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path fill="#666" d="M104.964 173.156l-29.482 5.247l17.796-18.49"/>
-                                                    <path d="M104.964 173.156l-29.482 5.247l17.796-18.49m-17.97-16.384l37.48 35.274" stroke="#FFF" stroke-width="1.918" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </g>
-                                            </svg>
+                                            <img src="https://i.pinimg.com/originals/6a/9d/0d/6a9d0d462cdc2b0b97e607f32aa124e9.png" alt="" width="240">
                                         </div>
                                     </div>
                                 </div>
                             </a>
                         </div>
 
-                    </div>
-                </div>
-
-                <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
-                    <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
                     </div>
                 </div>
             </div>
