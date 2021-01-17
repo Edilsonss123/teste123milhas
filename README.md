@@ -1,4 +1,9 @@
-<img src="teste123milhas.herokuapp.com/storage/img/teste123Milhas"></img>
+<p align="center">
+    <a href="teste123milhas.herokuapp.com" target="_blank">
+        <img src="https://raw.githubusercontent.com/Edilsonss123/teste123milhas/main/storage/app/img/teste%20123Milhas.png" width="600" height="300">
+    </a>
+</p>
+
 # Teste 123Milhas Back-end
  Projeto com o objetico consumir e disponibilar dados através de API padrão REST.
  Projeto feito com uso da framework Laravel.
