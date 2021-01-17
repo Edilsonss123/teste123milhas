@@ -5,16 +5,18 @@ namespace App\Http\Controllers;
 use App\Services\FlightService;
 use App\Services\ServiceRequest\Flight123MilhasService;
 
-class flightController extends Controller
+class FlightController extends Controller
 {
     private FlightService $flightService;
 
     public function __construct(FlightService $flightService) {
         $this->flightService = $flightService;
     }
-    public function searchFlight() {
+
+    public function searchFlight() 
+    {
         try {
-            $data    = $this->flightService->searchFlights(new Flight123MilhasService());
+            $data = $this->flightService->searchFlights(new Flight123MilhasService());
             return response()->json($data);
 
         } catch (\Exception $ex) {
@@ -26,9 +28,10 @@ class flightController extends Controller
         }
     }
 
-    public function searchFlightsGrouped() {
+    public function searchFlightsGrouped() 
+    {
         try {
-            $data    = $this->flightService->searchFlightsGrouped(new Flight123MilhasService());
+            $data = $this->flightService->searchFlightsGrouped(new Flight123MilhasService());
             return response()->json($data);
 
         } catch (\Exception $ex) {

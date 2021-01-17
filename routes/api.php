@@ -1,6 +1,5 @@
 <?php
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FlightController;
 
@@ -16,6 +15,8 @@ use App\Http\Controllers\FlightController;
 */
 
 Route::prefix('flight')->group(function () {
-    Route::get('search', [FlightController::class, 'searchFlight']);
-    Route::get('search/group', [FlightController::class, 'searchFlightsGrouped']);
+    Route::prefix('search')->group(function () {
+        Route::get('/', [FlightController::class, 'searchFlight']);
+        Route::get('/group', [FlightController::class, 'searchFlightsGrouped']);
+    });
 });
