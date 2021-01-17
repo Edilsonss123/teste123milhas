@@ -5,6 +5,7 @@
 </p>
 
 # Teste 123Milhas Back-end
+
  Projeto com o objetico consumir e disponibilar dados através de API padrão REST.
  Projeto feito com uso da framework Laravel.
 
@@ -13,12 +14,18 @@
 - PHP v7.4.13 ou superior [documentation](https://www.php.net/downloads.php)
 - Laravel v8.22.1 [documentation](https://laravel.com/docs)
 
-## Servidor Web
+## Aplicação
+
 - Host: [teste123milhas.herokuapp.com](teste123milhas.herokuapp.com])
 - GET: [/api/flight/search](teste123milhas.herokuapp.com/api/flight/search) -> Lista todos os voos disponíveis
 - GET: [/api/flight/search/group](teste123milhas.herokuapp.com/api/flight/search/group) -> Lista os voos agrupados por tarifa e nos valores dos voos de ida/volta
 
+## Rotas e chamadas Postman
+
+ - [Collection Postman](https://documenter.getpostman.com/view/5807678/TVzVivkw)
+
 ## Setting Up a Project 
+
 Clone este repositório
 
 ```
