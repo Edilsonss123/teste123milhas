@@ -1,4 +1,4 @@
-<img src="resource/img/teste123Milhas"></img>
+<img src="teste123milhas.herokuapp.com/storage/img/teste123Milhas"></img>
 # Teste 123Milhas Back-end
  Projeto com o objetico consumir e disponibilar dados através de API padrão REST.
  Projeto feito com uso da framework Laravel.
@@ -17,7 +17,7 @@
 Clone este repositório
 
 ```
-$ git clone <https://github.com/Edilsonss123/teste123milhas.git> teste123milhas
+$ git clone https://github.com/Edilsonss123/teste123milhas.git teste123milhas
 ```
 Acesse a pasta do projeto no terminal/cmd
 
