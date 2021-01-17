@@ -47,4 +47,4 @@ Iniciando servidor projeto
 ```
 php artisan serve --port=2021
 ```
-O servidor inciará na porta:2021 - acesse ```<http://localhost:2021/>```
+O servidor inciará na porta informada :2021 - acesse com o navegador ``` http://localhost:2021```
