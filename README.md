@@ -36,7 +36,7 @@ Instalando dependência
 composer install
 ```
 
-Gerando chave projeto
+Gerando chave do projeto
 
 ```
 php artisan key:generate 
@@ -47,4 +47,4 @@ Iniciando servidor projeto
 ```
 php artisan serve --port=2021
 ```
-O servidor inciará na porta:2121 - acesse ```<http://localhost:2021/>```
+O servidor inciará na porta:2021 - acesse ```<http://localhost:2021/>```
