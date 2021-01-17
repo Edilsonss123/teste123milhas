@@ -1,6 +1,6 @@
 <p align="center">
     <a href="teste123milhas.herokuapp.com" target="_blank">
-        <img src="https://raw.githubusercontent.com/Edilsonss123/teste123milhas/main/storage/app/img/teste%20123Milhas.png" width="600" height="300">
+        <img src="https://raw.githubusercontent.com/Edilsonss123/teste123milhas/main/resources/img/teste%20123Milhas.png" width="600" height="300">
     </a>
 </p>
 
