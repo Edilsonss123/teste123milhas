@@ -14,9 +14,9 @@
 
 ## Aplicação
 
-- Host: [teste123milhas.herokuapp.com](teste123milhas.herokuapp.com])
-- GET: [/api/flight/search](teste123milhas.herokuapp.com/api/flight/search) -> Lista todos os voos disponíveis
-- GET: [/api/flight/search/group](teste123milhas.herokuapp.com/api/flight/search/group) -> Lista os voos agrupados por tarifa e nos valores dos voos de ida/volta
+- Host: [teste123milhas.herokuapp.com](http://teste123milhas.herokuapp.com)
+- GET: [/api/flight/search](http://teste123milhas.herokuapp.com/api/flight/search) -> Lista todos os voos disponíveis
+- GET: [/api/flight/search/group](http://teste123milhas.herokuapp.com/api/flight/search/group) -> Lista os voos agrupados por tarifa e nos valores dos voos de ida/volta
 
 ## Rotas e chamadas Postman
 
