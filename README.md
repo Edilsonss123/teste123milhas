@@ -20,7 +20,7 @@
 
 ## Rotas e chamadas Postman
 
- - [Collection Postman](https://documenter.getpostman.com/view/5807678/TVzVivkw)
+ - [Documentação API Postman](https://documenter.getpostman.com/view/5807678/TVzVivkw)
 
 ## Setting Up a Project 
 
